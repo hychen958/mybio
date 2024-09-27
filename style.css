@@ -1,0 +1,55 @@
+body{
+    height: auto;
+    width: 100%;
+    font-family: monospace;
+    background-color: rgb(97, 42, 97);
+}
+
+
+
+.container{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.name{
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    margin:0;
+}
+
+
+.job{
+    color: rgb(0, 0, 0);
+}
+
+.selfie{
+    text-align: center;
+    width: 183px;
+    height: 182px;
+    border-radius: 10%;
+}
+
+.link-box{
+    margin: 20px;
+    border-radius: 0%;   
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    overflow-wrap: normal;
+    box-sizing: content-box;
+    overflow: auto;
+}
+
+.link-box:hover{
+    background-color: rgb(0, 217, 255); 
+}
+
+.link-colors{
+    background-color: rgb(255, 85, 85);
+}
+
