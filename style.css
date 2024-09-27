@@ -1,3 +1,5 @@
+/* font-family: monospace;: Sets the font of the entire page to a monospace (fixed-width) font.
+background-color: rgb(97, 42, 97);: Sets the background color to a purple shade. */
 body{
     height: auto;
     width: 100%;
@@ -5,8 +7,10 @@ body{
     background-color: rgb(97, 42, 97);
 }
 
-
-
+/* display: flex;: Uses Flexbox for layout, allowing flexible positioning of child elements.
+flex-direction: column;: Stacks the child elements vertically (one below the other).
+justify-content: center; and align-items: center;: Centers the content both horizontally and vertically.
+margin: 60px;: Adds 60 pixels of margin around the container to avoid the content being too close to the page edges. */
 .container{
     display:flex;
     align-content: center;
@@ -15,25 +19,27 @@ body{
     align-items: center;
     margin: 30px;
 }
-
+/* Sets the font size to 75 pixels, the color to black, and removes any margins */
 .name{
     font-size: 75px;
     color: rgb(0, 0, 0);
     margin:0;
 }
 
-
+/* Sets the text color to black for the job title.*/
 .job{
     color: rgb(0, 0, 0);
 }
-
+/*Defines the image dimensions as 180x180 pixels. and rounds the corners by 10% for a slight curvature. */
 .selfie{
     text-align: center;
     width: 183px;
     height: 182px;
     border-radius: 10%;
 }
-
+/* This defines a box for links or content.
+overflow: auto;: Ensures that scrollbars will appear if the content overflows the box.
+width: 20%;: Sets the width to 20% of the parent container's width. */
 .link-box{
     margin: 20px;
     border-radius: 0%;   
@@ -44,11 +50,12 @@ body{
     box-sizing: content-box;
     overflow: auto;
 }
-
+/* Changes the background color to a bright blue when the user hovers over the link box, creating a hover effect. */
 .link-box:hover{
     background-color: rgb(0, 217, 255); 
 }
 
+/*Defines an alternate background color (a red shade) for any elements using this class1. */
 .link-colors{
     background-color: rgb(255, 85, 85);
 }
